@@ -9,9 +9,16 @@ git config --[global, system, local] --list # 查看config信心
 git init # 创建git仓库
 git clone <url.git> # 克隆某个项目
 git add <name> # 跟踪文件
+git commit <filename> # 提交
+git reset head~ --soft # 取消提交 无法撤销第一次提交
+git status # 查看文件状态
+git diff # 查看区别
+git log # 提交日志
+git remote add <local_name> <url.git> # 添加远程仓库
+git remote rename <name> <new_name>
 ```
 
-#### 只有被跟踪的状态才会在版本中
+#### 只有被跟踪的状态才会在版本中   
 ```
 未跟踪 -> 缓存(git add) -> 
 未跟踪(git reset HEAD) <- 缓存
