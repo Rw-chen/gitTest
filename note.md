@@ -16,6 +16,10 @@ git diff # 查看区别
 git log # 提交日志
 git remote add <local_name> <url.git> # 添加远程仓库
 git remote rename <name> <new_name>
+git push <respoityry_name> <master>
+git branch --list # 查看分支
+git branch <branch_name> # 创建新的分支
+git branch checkout <branch_name> # 切换当前分支git
 ```
 
 #### 只有被跟踪的状态才会在版本中   
